@@ -14,8 +14,8 @@ class Navigation extends React.Component {
 			        	Jordan Sim-Smith
 			        </Menu.Item>
 
-					<Menu.Item as={Link}>About</Menu.Item>
-					<Menu.Item as={Link}>Biography</Menu.Item>
+					<Menu.Item as={Link} to="/">About</Menu.Item>
+					<Menu.Item as={Link} to="/biography/">Biography</Menu.Item>
 					<Menu.Item as={Link}>Projects</Menu.Item>
 					<Menu.Item as={Link}>Resume</Menu.Item>
 					<Menu.Item as={Link}>Contact</Menu.Item>
