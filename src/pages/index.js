@@ -1,6 +1,7 @@
 import React from "react"
 import {Parallax, Background} from "react-parallax";
-import {Header, Menu, Link, Container, Image} from "semantic-ui-react";
+import {Header, Menu, Container, Image} from "semantic-ui-react";
+import Link from "gatsby-link";
 
 import "../semantic/semantic.css"
 import "../styles/default.css";
@@ -15,12 +16,14 @@ export default () => (
 
 		<Menu inverted>
 			<Container>
-		        <Menu.Item as='a' header>
-		
-		          Project Name
-		        </Menu.Item>
+		        <Menu.Item as={Link} header>Jordan Sim-Smith</Menu.Item>
 
-				<Menu.Item as="a">Home</Menu.Item>
+				<Menu.Item as={Link}>About</Menu.Item>
+				<Menu.Item as={Link}>Biography</Menu.Item>
+				<Menu.Item as={Link}>Projects</Menu.Item>
+				<Menu.Item as={Link}>Resume</Menu.Item>
+				<Menu.Item as={Link}>Contact</Menu.Item>
+
 			</Container>
 		</Menu>
 
