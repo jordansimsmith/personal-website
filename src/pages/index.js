@@ -1,5 +1,4 @@
 import React from "react"
-import {Parallax, Background} from "react-parallax";
 import {Header, Menu, Container, Image, Segment, Grid, List, Icon} from "semantic-ui-react";
 import Link from "gatsby-link";
 
