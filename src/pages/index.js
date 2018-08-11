@@ -1,6 +1,6 @@
 import React from "react"
 import {Parallax, Background} from "react-parallax";
-import {Header, Menu, Container, Image} from "semantic-ui-react";
+import {Header, Menu, Container, Image, Segment, Grid, List} from "semantic-ui-react";
 import Link from "gatsby-link";
 
 import "../semantic/semantic.css"
@@ -16,7 +16,11 @@ export default () => (
 
 		<Menu inverted>
 			<Container>
-		        <Menu.Item as={Link} header>Jordan Sim-Smith</Menu.Item>
+		        <Menu.Item as={Link} header>
+ 					<Image size='mini' src={require("../images/portrait.jpg")} style={{ marginRight: '1.5em' }} />
+
+		        	Jordan Sim-Smith
+		        </Menu.Item>
 
 				<Menu.Item as={Link}>About</Menu.Item>
 				<Menu.Item as={Link}>Biography</Menu.Item>
@@ -37,5 +41,40 @@ export default () => (
 				<p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
 			</div>
 		</div>
+
+		<Segment inverted vertical style={{ padding: '5em 0em' }}>
+		    <Container>
+		        <Grid divided inverted stackable>
+		            <Grid.Row>
+		                <Grid.Column width={3}>
+		                    <Header inverted as='h4' content='About' />
+		                    <List link inverted>
+		                        <List.Item as='a'>Sitemap</List.Item>
+		                        <List.Item as='a'>Contact Us</List.Item>
+		                        <List.Item as='a'>Religious Ceremonies</List.Item>
+		                        <List.Item as='a'>Gazebo Plans</List.Item>
+		                    </List>
+		                </Grid.Column>
+		                <Grid.Column width={3}>
+		                    <Header inverted as='h4' content='Services' />
+		                    <List link inverted>
+		                        <List.Item as='a'>Banana Pre-Order</List.Item>
+		                        <List.Item as='a'>DNA FAQ</List.Item>
+		                        <List.Item as='a'>How To Access</List.Item>
+		                        <List.Item as='a'>Favorite X-Men</List.Item>
+		                    </List>
+		                </Grid.Column>
+		                <Grid.Column width={7}>
+		                    <Header as='h4' inverted>
+		                        Footer Header
+		                    </Header>
+		                    <p>
+		                        Extra space for a call to action inside the footer that could help re-engage users.
+		                    </p>
+		                </Grid.Column>
+		            </Grid.Row>
+		        </Grid>
+		    </Container>
+		</Segment>
 	</div>
 );

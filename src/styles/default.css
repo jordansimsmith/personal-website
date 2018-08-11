@@ -1,3 +1,9 @@
+html, body {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+}
+
 .bg {
 	background-image: url('../images/background.jpg');
 
@@ -36,20 +42,10 @@ p {
 	margin-top: 0;
 }
 
-.nav {
-	height: 10vh;
-	background-color:black;
-	color:white;
+.ui.inverted.menu {
+	margin:0;
 }
 
 .ui.menu {
-  position: 'fixed';
-  display: 'flex';
-  flexDirection: 'column';
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: sidebarWidth;
-  background: '#1B1C1D';
-  overflowX: 'hidden';
+	border-radius: 0;
 }
