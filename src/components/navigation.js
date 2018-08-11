@@ -8,7 +8,7 @@ class Navigation extends React.Component {
 		return (
 			<Menu inverted>
 				<Container>
-			        <Menu.Item as={Link} header>
+			        <Menu.Item as={Link} to="/" header>
 	 					<Image size='mini' src={require("../images/portrait.jpg")} style={{ marginRight: '1.5em' }} />
 
 			        	Jordan Sim-Smith
@@ -17,6 +17,7 @@ class Navigation extends React.Component {
 					<Menu.Item as={Link} to="/">About</Menu.Item>
 					<Menu.Item as={Link} to="/biography/">Biography</Menu.Item>
 					<Menu.Item as={Link}>Projects</Menu.Item>
+					<Menu.Item as={Link}>Blog</Menu.Item>
 					<Menu.Item as={Link}>Resume</Menu.Item>
 					<Menu.Item as={Link}>Contact</Menu.Item>
 

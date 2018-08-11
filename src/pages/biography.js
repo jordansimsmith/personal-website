@@ -1,5 +1,5 @@
 import React from "react";
-import {Header, Icon, Grid, Image} from "semantic-ui-react";
+import {Header, Icon, Grid, Image, List} from "semantic-ui-react";
 
 import Navigation from "../components/navigation";
 import Footer from "../components/footer";
@@ -53,6 +53,41 @@ export default () => (
 				<Header.Content>Skills</Header.Content>
 
 			</Header>
+
+			<Grid divided inverted>
+				<Grid.Row>
+					<Grid.Column width={8}>
+						<Header as="h3" textAlign="center">
+							<Header.Content>I am confident with:</Header.Content>
+						</Header>
+						<List bulleted>
+							<List.Item>Java</List.Item>
+							<List.Item>Node.js</List.Item>
+							<List.Item>C</List.Item>
+							<List.Item>Matlab</List.Item>
+							<List.Item>AWS</List.Item>
+							<List.Item>Git</List.Item>
+							<List.Item>Unit Testing</List.Item>
+							<List.Item>Linux</List.Item>
+							<List.Item>Bash</List.Item>
+
+						</List>
+					</Grid.Column>
+
+					<Grid.Column width={8}>
+						<Header as="h3" textAlign="center">
+							<Header.Content>I have experience with:</Header.Content>
+						</Header>
+						<List bulleted>
+							<List.Item>Algorithms</List.Item>
+							<List.Item>Data Structures</List.Item>
+							<List.Item>Web Design</List.Item>
+							<List.Item>GoLang</List.Item>
+							<List.Item>Python</List.Item>
+						</List>
+					</Grid.Column>
+				</Grid.Row>
+			</Grid>
 		</div>
 
 		<div className="bg-light">
