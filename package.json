@@ -9,6 +9,8 @@
   },
   "dependencies": {
     "gatsby": "^1.9.277",
-    "gatsby-link": "^1.6.46"
+    "gatsby-link": "^1.6.46",
+    "react-parallax": "^1.8.0",
+    "semantic-ui-react": "^0.82.2"
   }
 }
