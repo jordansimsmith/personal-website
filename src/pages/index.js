@@ -4,6 +4,7 @@ import {Header, Menu, Container, Image, Segment, Grid, List, Icon} from "semanti
 import Link from "gatsby-link";
 
 import Footer from "../components/footer";
+import Navigation from "../components/navigation";
 
 import "../semantic/semantic.css"
 import "../styles/default.css";
@@ -16,22 +17,7 @@ export default () => (
 			<Header as="h1">Hello, I'm Jordan Sim-Smith</Header>
 		</div>
 
-		<Menu inverted>
-			<Container>
-		        <Menu.Item as={Link} header>
- 					<Image size='mini' src={require("../images/portrait.jpg")} style={{ marginRight: '1.5em' }} />
-
-		        	Jordan Sim-Smith
-		        </Menu.Item>
-
-				<Menu.Item as={Link}>About</Menu.Item>
-				<Menu.Item as={Link}>Biography</Menu.Item>
-				<Menu.Item as={Link}>Projects</Menu.Item>
-				<Menu.Item as={Link}>Resume</Menu.Item>
-				<Menu.Item as={Link}>Contact</Menu.Item>
-
-			</Container>
-		</Menu>
+		<Navigation/>
 
 		<div className="bg-light">
 			<Header as="h2" icon textAlign="center">
