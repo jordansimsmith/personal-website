@@ -18,7 +18,7 @@ export default () => (
 
 		<Navigation/>
 
-		<div className="bg-light">
+		<Container className="bg-light">
 			<Header as="h2" icon textAlign="center">
 				<Icon name="user"/>
 				<Header.Content>About Me</Header.Content>
@@ -35,7 +35,7 @@ export default () => (
 
 				</Grid.Row>
 			</Grid>
-		</div>
+		</Container>
 
 		<Footer/>
 	

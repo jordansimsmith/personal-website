@@ -1,5 +1,5 @@
 import React from "react";
-import {Header, Icon, Grid, Image, List} from "semantic-ui-react";
+import {Header, Icon, Grid, Image, List, Container} from "semantic-ui-react";
 
 import Navigation from "../components/navigation";
 import Footer from "../components/footer";
@@ -15,7 +15,7 @@ export default () => (
 			<Header.Content>Biography</Header.Content>
 		</Header>
 
-		<div className="bg-light">
+		<Container className="bg-light">
 			<Header as="h2" icon textAlign="center">
 				<Icon name="graduation"/>
 				<Header.Content>Education</Header.Content>
@@ -24,7 +24,7 @@ export default () => (
 
 			<Grid divided inverted>
 				<Grid.Row>
-					<Grid.Column width={6}>
+					<Grid.Column width={5}>
 						<Image src={require("../images/uoa.png")} />
 					</Grid.Column>
 					<Grid.Column width={10}>
@@ -35,7 +35,7 @@ export default () => (
 				</Grid.Row>
 
 				<Grid.Row>
-					<Grid.Column width={6}>
+					<Grid.Column width={5}>
 						<Image src={require("../images/smc.jpg")} />
 					</Grid.Column>
 					<Grid.Column width={10}>
@@ -45,9 +45,9 @@ export default () => (
 				</Grid.Row>
 			</Grid>
 
-		</div>
+		</Container>
 
-		<div className="bg-light">
+		<Container className="bg-light">
 			<Header as="h2" icon textAlign="center">
 				<Icon name="terminal"/>
 				<Header.Content>Skills</Header.Content>
@@ -88,9 +88,9 @@ export default () => (
 					</Grid.Column>
 				</Grid.Row>
 			</Grid>
-		</div>
+		</Container>
 
-		<div className="bg-light">
+		<Container className="bg-light">
 			<Header as="h2" icon textAlign="center">
 				<Icon name="briefcase"/>
 				<Header.Content>Experience</Header.Content>
@@ -99,7 +99,7 @@ export default () => (
 
 			<Grid divided inverted>
 				<Grid.Row>
-					<Grid.Column width={6}>
+					<Grid.Column width={5}>
 						<Image src={require("../images/autogrow.jpg")} />
 					</Grid.Column>
 					<Grid.Column width={10}>
@@ -110,15 +110,15 @@ export default () => (
 				</Grid.Row>
 			</Grid>
 
-		</div>
+		</Container>
 
-		<div className="bg-light">
+		<Container className="bg-light">
 			<Header as="h2" icon textAlign="center">
 				<Icon name="heart"/>
 				<Header.Content>Interests</Header.Content>
 
 			</Header>			
-		</div>
+		</Container>
 
 
 	<Footer/>
