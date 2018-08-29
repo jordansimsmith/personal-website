@@ -22,11 +22,13 @@ export default () => (
 					<Item.Image size="medium" src={require("../images/uoa.png")} />
 					<Item.Content>
 						<Item.Header as="h2">Bachelor of Engineering (Hons) - Software</Item.Header>
-						<Item.Meta>The University of Auckland</Item.Meta>
+						<Item.Meta>The University of Auckland, 2017 - 2020</Item.Meta>
 						<Item.Description>
 							<p>I am two years into a four year Bachelor of Engineering in Software at the University of Auckland. Problem-solving has always fascinated me as it requires logical thought and a systematic approach. 
 							Designing software as a response to a specific problem feels like a natural extension to solving these problems. 
 							Having enjoyed programming in high-school, I enrolled in the Engineering program at UoA, with the goal of learning the skills necessary to develop software in the professional world.</p>
+
+							<p>I am part of the Software Engineering Students Association (SESA).</p>
 
 							<p>My second year in the Software course has been a blur of language mechanics, algorithms, data structures, testing and software design. </p>
 							<Header as="h4">Notable Courses</Header>
@@ -55,7 +57,6 @@ export default () => (
 								<List.Item>Top Achiever Scholarship valued at $20,000</List.Item>
 							</List>
 						</Item.Description>
-
 					</Item.Content>
 				</Item>
 
@@ -63,9 +64,8 @@ export default () => (
 					<Item.Image size="medium" src={require("../images/smc.jpg")} />
 					<Item.Content>
 						<Item.Header as="h2">NCEA Level 3</Item.Header>
-						<Item.Meta>Sancta Maria College</Item.Meta>
+						<Item.Meta>Sancta Maria College, 2010 - 2016</Item.Meta>
 						<Item.Description>
-							<p>Hello there.</p>
 							<Header as="h4">Achievements</Header>
 							<List bulleted>
 								<List.Item>Dux</List.Item>
