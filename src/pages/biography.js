@@ -24,7 +24,30 @@ export default () => (
 						<Item.Header as="h2">Bachelor of Engineering (Hons) - Software</Item.Header>
 						<Item.Meta>The University of Auckland</Item.Meta>
 						<Item.Description>
-							<p>Hello there.</p>
+							<p>I am two years into a four year Bachelor of Engineering in Software at the University of Auckland. Problem-solving has always fascinated me as it requires logical thought and a systematic approach. 
+							Designing software as a response to a specific problem feels like a natural extension to solving these problems. 
+							Having enjoyed programming in high-school, I enrolled in the Engineering program at UoA, with the goal of learning the skills necessary to develop software in the professional world.</p>
+
+							<p>My second year in the Software course has been a blur of language mechanics, algorithms, data structures, testing and software design. </p>
+							<Header as="h4">Notable Courses</Header>
+							<List bulleted>
+								<List.Item>
+									<List.Header>Object-Oriented Software Construction</List.Header>
+									I learnt about O-O mechanics in Java, with an emphasis on design patterns and what is good software design.
+								</List.Item>
+								<List.Item>
+									<List.Header>Introduction to Data Structures and Algorithms</List.Header>
+									I learnt how to analyse the time complexity and correctness of algorithms and which data structure to use.
+								</List.Item>
+								<List.Item>
+									<List.Header>Quality Assurance</List.Header>
+									I learnt about developing fault-free software as well as how to test for faults in my code.
+								</List.Item>
+								<List.Item>
+									<List.Header>Software Engineering Design</List.Header>
+									I brought everything I have learnt together into a semester-long pair project using version control.
+								</List.Item>			
+							</List>
 							<Header as="h4">Achievements</Header>
 							<List bulleted>
 								<List.Item>GPA: 8.75/9</List.Item>
