@@ -49,3 +49,16 @@ p {
 .ui.menu {
 	border-radius: 0;
 }
+
+.ui.button {
+	margin: auto;
+}
+
+.center{
+	text-align: center;
+	overflow: auto;
+}
+
+.ui.bordered.fluid.rounded.image {
+	margin-top:35px;
+}
