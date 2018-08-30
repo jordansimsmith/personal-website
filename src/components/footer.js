@@ -1,6 +1,8 @@
 import React from "react";
 import {List, Container, Segment, Grid, Header} from "semantic-ui-react";
 
+import Link from "gatsby-link";
+
 class Footer extends React.Component {
 
 	render() {
@@ -10,29 +12,29 @@ class Footer extends React.Component {
 			        <Grid divided inverted stackable>
 			            <Grid.Row>
 			                <Grid.Column width={3}>
-			                    <Header inverted as='h4' content='About' />
+			                    <Header inverted as='h4' content='Contact Me' />
 			                    <List link inverted>
-			                        <List.Item as='a'>Sitemap</List.Item>
-			                        <List.Item as='a'>Contact Us</List.Item>
-			                        <List.Item as='a'>Religious Ceremonies</List.Item>
-			                        <List.Item as='a'>Gazebo Plans</List.Item>
+			                        <List.Item as='a' href="https://www.linkedin.com/in/jordansimsmith/" target="_blank">LinkedIn</List.Item>
+			                        <List.Item as='a' href="https://github.com/jordansimsmith" target="_blank">GitHub</List.Item>
 			                    </List>
 			                </Grid.Column>
 			                <Grid.Column width={3}>
-			                    <Header inverted as='h4' content='Services' />
+			                    <Header inverted as='h4' content='Pages' />
 			                    <List link inverted>
-			                        <List.Item as='a'>Banana Pre-Order</List.Item>
-			                        <List.Item as='a'>DNA FAQ</List.Item>
-			                        <List.Item as='a'>How To Access</List.Item>
-			                        <List.Item as='a'>Favorite X-Men</List.Item>
+			                        <List.Item as={Link} to="/">Home</List.Item>
+			                        <List.Item as={Link} to="/biography">Biography</List.Item>
+			                        <List.Item as={Link} to="/projects">Projects</List.Item>
+			                        <List.Item as={Link} >Blog</List.Item>
+			                        <List.Item as={Link} to="/resume">Resume</List.Item>
+			                        <List.Item as={Link} to="/contact">Contact</List.Item>
 			                    </List>
 			                </Grid.Column>
 			                <Grid.Column width={7}>
 			                    <Header as='h4' inverted>
-			                        Footer Header
+			                        Updated
 			                    </Header>
 			                    <p>
-			                        Extra space for a call to action inside the footer that could help re-engage users.
+			                        Jordan Sim-Smith, October 2018
 			                    </p>
 			                </Grid.Column>
 			            </Grid.Row>
