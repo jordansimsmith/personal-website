@@ -1,5 +1,5 @@
 import React from "react";
-import {Header, Icon, Grid, Image, List, Container, Item} from "semantic-ui-react";
+import {Header, Icon, Grid, Image, List, Container, Item, Table} from "semantic-ui-react";
 
 import Navigation from "../components/navigation";
 import Footer from "../components/footer";
@@ -84,43 +84,56 @@ export default () => (
 			<Header as="h2" icon textAlign="center">
 				<Icon name="terminal"/>
 				<Header.Content>Skills</Header.Content>
-
 			</Header>
 
-			<Grid divided inverted>
-				<Grid.Row>
-					<Grid.Column width={8}>
-						<Header as="h3" textAlign="center">
-							<Header.Content>I am confident with:</Header.Content>
-						</Header>
-						<List bulleted>
-							<List.Item>Java</List.Item>
-							<List.Item>Node.js</List.Item>
-							<List.Item>C</List.Item>
-							<List.Item>Matlab</List.Item>
-							<List.Item>AWS</List.Item>
-							<List.Item>Git</List.Item>
-							<List.Item>Unit Testing</List.Item>
-							<List.Item>Linux</List.Item>
-							<List.Item>Bash</List.Item>
+			<Table celled>
+				<Table.Header>
+					<Table.Row textAlign="center">
+						<Table.HeaderCell>I am confident with</Table.HeaderCell>
+						<Table.HeaderCell>I have experience with</Table.HeaderCell>
+					</Table.Row>
+				</Table.Header>
 
-						</List>
-					</Grid.Column>
+				<Table.Body>
+					<Table.Row textAlign="center">
+						<Table.Cell>Java</Table.Cell>
+						<Table.Cell>Algorithms</Table.Cell>
+					</Table.Row>
+					<Table.Row textAlign="center">
+						<Table.Cell>Node.js</Table.Cell>
+						<Table.Cell>Data Structures</Table.Cell>
+					</Table.Row>
+					<Table.Row textAlign="center">
+						<Table.Cell>C</Table.Cell>
+						<Table.Cell>Web Design</Table.Cell>
+					</Table.Row>
+					<Table.Row textAlign="center">
+						<Table.Cell>Matlab</Table.Cell>
+						<Table.Cell>GoLang</Table.Cell>
+					</Table.Row>
+					<Table.Row textAlign="center">
+						<Table.Cell>AWS</Table.Cell>
+						<Table.Cell>Python</Table.Cell>
+					</Table.Row>
+					<Table.Row textAlign="center">
+						<Table.Cell>Git</Table.Cell>
+						<Table.Cell></Table.Cell>
+					</Table.Row>
+					<Table.Row textAlign="center">
+						<Table.Cell>Unit Testing</Table.Cell>
+						<Table.Cell></Table.Cell>
+					</Table.Row>
+					<Table.Row textAlign="center">
+						<Table.Cell>Linux</Table.Cell>
+						<Table.Cell></Table.Cell>
+					</Table.Row>
+					<Table.Row textAlign="center">
+						<Table.Cell>Bash</Table.Cell>
+						<Table.Cell></Table.Cell>
+					</Table.Row>
+				</Table.Body>
+			</Table>
 
-					<Grid.Column width={8}>
-						<Header as="h3" textAlign="center">
-							<Header.Content>I have experience with:</Header.Content>
-						</Header>
-						<List bulleted>
-							<List.Item>Algorithms</List.Item>
-							<List.Item>Data Structures</List.Item>
-							<List.Item>Web Design</List.Item>
-							<List.Item>GoLang</List.Item>
-							<List.Item>Python</List.Item>
-						</List>
-					</Grid.Column>
-				</Grid.Row>
-			</Grid>
 		</Container>
 
 		<Container className="bg-light">
