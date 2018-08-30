@@ -4,9 +4,6 @@ import {Header, Icon, Grid, Image, List, Container, Item, Table} from "semantic-
 import Navigation from "../components/navigation";
 import Footer from "../components/footer";
 
-import "../semantic/semantic.css"
-import "../styles/default.css";
-
 export default () => (
 	<div>
 		<Navigation/>

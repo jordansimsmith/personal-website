@@ -5,9 +5,9 @@ import Link from "gatsby-link";
 import Footer from "../components/footer";
 import Navigation from "../components/navigation";
 
-import "../semantic/semantic.css"
-import "../styles/default.css";
-import "../styles/index.css";
+import 'semantic-ui-css/semantic.min.css';
+import '../styles/default.css';
+import '../styles/index.css'
 
 export default () => (
 	<div>
