@@ -174,8 +174,25 @@ export default () => (
 			<Header as="h2" icon textAlign="center">
 				<Icon name="heart"/>
 				<Header.Content>Interests</Header.Content>
+			</Header>
 
-			</Header>			
+			<Table celled>
+				<Table.Body>
+					<Table.Row textAlign="center">
+						<Table.Cell>Skiing</Table.Cell>
+					</Table.Row>
+					<Table.Row textAlign="center">
+						<Table.Cell>Tramping</Table.Cell>
+					</Table.Row>
+					<Table.Row textAlign="center">
+						<Table.Cell>Sailing</Table.Cell>
+					</Table.Row>
+					<Table.Row textAlign="center">
+						<Table.Cell>Entrepreneurship</Table.Cell>
+					</Table.Row>
+				</Table.Body>
+			</Table>
+
 		</Container>
 
 
