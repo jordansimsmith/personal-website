@@ -1,5 +1,5 @@
 import React from "react"
-import {Header, Menu, Container, Image, Icon, Item, Button} from "semantic-ui-react";
+import {Header, Menu, Container, Image, Icon, Item, Button, Grid} from "semantic-ui-react";
 import Link from "gatsby-link";
 import Helmet from "react-helmet";
 
@@ -23,18 +23,20 @@ export default () => (
 
 
 		<div className="landing background">
-			<Header as="h1" textAlign="center">
-			<Button>Click me</Button>
-			<Header.Content>Hello, I'm Jordan Sim-Smith</Header.Content>
-
-
-			</Header>
+			<Grid centered>
+				<Grid.Row>
+					<Header as="h1">Hello, I'm Jordan Sim-Smith.</Header>
+				</Grid.Row>
+				<Grid.Row>
+					<Button as={Link} to="#about" inverted size="huge">Click to continue</Button>
+				</Grid.Row>
+			</Grid>
 		</div>
 
 		<Navigation/>
 
 		<Container className="content box">
-			<Header as="h2" icon textAlign="center">
+			<Header as="h2" icon textAlign="center" id="about">
 				<Icon name="user"/>
 				<Header.Content>About Me</Header.Content>
 			</Header>

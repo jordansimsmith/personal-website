@@ -32,3 +32,11 @@
 div.content {
 	margin-bottom: 1em;
 }
+
+.ui.centered.grid {
+	padding-top:20vw;
+}
+
+h1.ui.header {
+	font-size: 5em;
+}
