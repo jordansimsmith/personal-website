@@ -28,7 +28,7 @@ export default () => (
 					<Header as="h1">Hello, I'm Jordan Sim-Smith.</Header>
 				</Grid.Row>
 				<Grid.Row>
-					<Button as={Link} to="#about" inverted size="huge">Click to continue</Button>
+					<Button as={Link} to="/#about" inverted size="huge">Click to continue</Button>
 				</Grid.Row>
 			</Grid>
 		</div>
