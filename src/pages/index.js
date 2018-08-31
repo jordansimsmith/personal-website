@@ -17,7 +17,8 @@ export default () => (
 			<meta charset="utf-8"/>
 			<meta name="author" content="Jordan Sim-Smith"/>
 			<meta name="description" content="Jordan Sim-Smith personal website"/>
-
+			<meta name="google-site-verification" content="XWCNf1sTNpK7uE7ad6BicgVR0pg508hwYw_7Sjerb4A" />
+			
 			<link href={require("../images/favicon.ico")} rel="shortcut icon"/>
 		</Helmet>
 
