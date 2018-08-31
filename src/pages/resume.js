@@ -9,7 +9,7 @@ export default () => (
 	<div>
 		<Navigation/>
 		
-		<Container className="bg-light">
+		<Container className="content box">
 			<Header as="h2" icon textAlign="center">
 				<Icon name="file alternate"/>
 				<Header.Content>Resume</Header.Content>
@@ -23,7 +23,7 @@ export default () => (
 			</div>
 
 			<div className="center">
-				<Image  src={require("../images/cv.png")} fluid rounded bordered/>
+				<Image id="resume" src={require("../images/cv.png")} fluid rounded bordered/>
 			</div>
 		</Container>
 

@@ -9,7 +9,7 @@ export default () => (
 	<div>
 		<Navigation/>
 
-		<Container className="bg-light">
+		<Container className="content box">
 			<Header as="h2" icon textAlign="center">
 				<Icon name="code"/>
 				<Header.Content>Personal Projects</Header.Content>

@@ -1,5 +1,5 @@
 import React from "react"
-import {Header, Menu, Container, Image, Segment, Grid, List, Icon, Item} from "semantic-ui-react";
+import {Header, Menu, Container, Image, Icon, Item, Button} from "semantic-ui-react";
 import Link from "gatsby-link";
 import Helmet from "react-helmet";
 
@@ -8,7 +8,6 @@ import Navigation from "../components/navigation";
 
 import 'semantic-ui-css/semantic.min.css';
 import '../styles/default.css';
-import '../styles/index.css';
 
 export default () => (
 	<div>
@@ -23,13 +22,18 @@ export default () => (
 		</Helmet>
 
 
-		<div className="bg">
-			<Header as="h1">Hello, I'm Jordan Sim-Smith</Header>
+		<div className="landing background">
+			<Header as="h1" textAlign="center">
+			<Button>Click me</Button>
+			<Header.Content>Hello, I'm Jordan Sim-Smith</Header.Content>
+
+
+			</Header>
 		</div>
 
 		<Navigation/>
 
-		<Container className="bg-light">
+		<Container className="content box">
 			<Header as="h2" icon textAlign="center">
 				<Icon name="user"/>
 				<Header.Content>About Me</Header.Content>

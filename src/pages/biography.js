@@ -8,7 +8,7 @@ export default () => (
 	<div>
 		<Navigation/>
 
-		<Container className="bg-light">
+		<Container className="content box">
 			<Header as="h2" icon textAlign="center">
 				<Icon name="graduation"/>
 				<Header.Content>Education</Header.Content>
@@ -77,7 +77,7 @@ export default () => (
 
 		</Container>
 
-		<Container className="bg-light">
+		<Container className="content box">
 			<Header as="h2" icon textAlign="center">
 				<Icon name="terminal"/>
 				<Header.Content>Skills</Header.Content>
@@ -133,7 +133,7 @@ export default () => (
 
 		</Container>
 
-		<Container className="bg-light">
+		<Container className="content box">
 			<Header as="h2" icon textAlign="center">
 				<Icon name="briefcase"/>
 				<Header.Content>Experience</Header.Content>
@@ -167,7 +167,7 @@ export default () => (
 
 		</Container>
 
-		<Container className="bg-light">
+		<Container className="content box">
 			<Header as="h2" icon textAlign="center">
 				<Icon name="heart"/>
 				<Header.Content>Interests</Header.Content>
