@@ -1,16 +1,28 @@
 import React from "react"
 import {Header, Menu, Container, Image, Segment, Grid, List, Icon, Item} from "semantic-ui-react";
 import Link from "gatsby-link";
+import Helmet from "react-helmet";
 
 import Footer from "../components/footer";
 import Navigation from "../components/navigation";
 
 import 'semantic-ui-css/semantic.min.css';
 import '../styles/default.css';
-import '../styles/index.css'
+import '../styles/index.css';
 
 export default () => (
 	<div>
+		<Helmet>
+			<title>Jordan Sim-Smith</title>
+
+			<meta charset="utf-8"/>
+			<meta name="author" content="Jordan Sim-Smith"/>
+			<meta name="description" content="Jordan Sim-Smith personal website"/>
+
+			<link href={require("../images/favicon.ico")} rel="shortcut icon"/>
+		</Helmet>
+
+
 		<div className="bg">
 			<Header as="h1">Hello, I'm Jordan Sim-Smith</Header>
 		</div>
