@@ -1,0 +1,56 @@
+{
+  "assetsByChunkName": {
+    "path---biography": [
+      "path---biography-a0e39f21c11f6a62c5ab.js",
+      "path---biography-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-e9835b5c2e37c41f9adf.js",
+      "component---src-pages-index-js-e9835b5c2e37c41f9adf.js.map"
+    ],
+    "component---src-pages-contact-js": [
+      "component---src-pages-contact-js-1e60be1df0b8b0423cff.js",
+      "component---src-pages-contact-js-1e60be1df0b8b0423cff.js.map"
+    ],
+    "component---src-pages-biography-js": [
+      "component---src-pages-biography-js-4a5b523bd9e50807ac8d.js",
+      "component---src-pages-biography-js-4a5b523bd9e50807ac8d.js.map"
+    ],
+    "path---projects": [
+      "path---projects-a0e39f21c11f6a62c5ab.js",
+      "path---projects-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-resume-js": [
+      "component---src-pages-resume-js-a426a1b4bcc27fbf9ed5.js",
+      "component---src-pages-resume-js-a426a1b4bcc27fbf9ed5.js.map"
+    ],
+    "commons": [
+      "commons-e8d3710ee431301bd090.js",
+      "build-js-styles.css",
+      "commons-e8d3710ee431301bd090.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---contact": [
+      "path---contact-a0e39f21c11f6a62c5ab.js",
+      "path---contact-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-projects-js": [
+      "component---src-pages-projects-js-4d5ab590b325dd93bd68.js",
+      "component---src-pages-projects-js-4d5ab590b325dd93bd68.js.map"
+    ],
+    "path---resume": [
+      "path---resume-a0e39f21c11f6a62c5ab.js",
+      "path---resume-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-37754a64b3db2a318ccd.js",
+      "build-js-styles.css",
+      "app-37754a64b3db2a318ccd.js.map",
+      "build-js-styles.css.map"
+    ]
+  }
+}
