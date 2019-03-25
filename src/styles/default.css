@@ -35,6 +35,10 @@ div.content {
   padding-top: 20vw;
 }
 
+.ui.card {
+  margin-bottom: 5em;
+}
+
 h1.ui.header {
   font-size: 5em;
 }
