@@ -25,7 +25,6 @@ class Navigation extends React.Component {
           <Menu.Item as={Link} to="/projects/">
             Projects
           </Menu.Item>
-          <Menu.Item as={Link}>Blog</Menu.Item>
           <Menu.Item as={Link} to="/resume/">
             Resume
           </Menu.Item>

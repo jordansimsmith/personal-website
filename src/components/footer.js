@@ -39,7 +39,6 @@ class Footer extends React.Component {
                   <List.Item as={Link} to="/projects">
                     Projects
                   </List.Item>
-                  <List.Item as={Link}>Blog</List.Item>
                   <List.Item as={Link} to="/resume">
                     Resume
                   </List.Item>
