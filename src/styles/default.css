@@ -1,42 +1,40 @@
 .landing.background {
-	background-image: url('../images/background.jpg');
+  background-image: url('../images/background.jpg');
 
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-	height: 100vh;
+  height: 100vh;
 }
 
-
 .content.box {
-	padding: 2vw;
-	overflow: auto;
+  padding: 2vw;
+  overflow: auto;
 }
 
 .ui.menu {
-	border-radius: 0;
-	margin: 0;
+  border-radius: 0;
+  margin: 0;
 }
 
 .center {
-	text-align: center;
-	overflow: auto;
+  text-align: center;
+  overflow: auto;
 }
 
 #resume {
-	margin-top: 1em;
+  margin-top: 1em;
 }
 
-
 div.content {
-	margin-bottom: 1em;
+  margin-bottom: 1em;
 }
 
 .ui.centered.grid {
-	padding-top:20vw;
+  padding-top: 20vw;
 }
 
 h1.ui.header {
-	font-size: 5em;
+  font-size: 5em;
 }
