@@ -24,6 +24,51 @@ export default () => (
       </Header>
 
       <Card fluid>
+        <Image fluid src={require('../images/waterboy.png')} />
+        <Card.Content>
+          <Card.Header>Water Boy</Card.Header>
+          <Card.Meta>May 2019</Card.Meta>
+          <Card.Description>
+            <p>
+              Having trouble keeping a small pot plant alive, I decided to apply
+              an engineer’s touch. I hooked up a soil moisture sensor to a
+              Raspberry Pi Zero W to measure the plant’s water supply. Once the
+              moisture content drops below a certain threshold, the Pi sends a
+              stylised notification email, notifying me of the care required. So
+              far, my chilli plant has remained watered and alive.
+            </p>
+            <Button
+              as="a"
+              href="https://github.com/jordansimsmith/waterboy"
+              target="_blank"
+              size="mini">
+              <Icon name="github" />
+              GitHub Repository
+            </Button>
+          </Card.Description>
+        </Card.Content>
+        <Card.Content extra>
+          <Label>
+            <Icon name="python" color="yellow" />
+            Python
+          </Label>
+          <Label>Raspberry Pi</Label>
+          <Label>
+            <Icon name="html5" color="orange" />
+            HTML
+          </Label>
+          <Label>
+            <Icon name="css3" color="blue" />
+            CSS
+          </Label>
+          <Label>
+            <Icon name="mail" color="red" />
+            Email
+          </Label>
+        </Card.Content>
+      </Card>
+
+      <Card fluid>
         <Image fluid src={require('../images/webtex.png')} />
         <Card.Content>
           <Card.Header>WebTex</Card.Header>
