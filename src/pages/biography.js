@@ -189,7 +189,9 @@ export default () => (
           <Item.Image size="medium" src={require('../images/autogrow.jpg')} />
           <Item.Content>
             <Item.Header as="h4">Autogrow Systems Limited</Item.Header>
-            <Item.Meta>Software Engineer Intern, 2018 - PRESENT</Item.Meta>
+            <Item.Meta>
+              Software Engineer Intern, June 2018 - February 2019
+            </Item.Meta>
             <Item.Description>
               <p>
                 "Autogrow creates automation solutions that leverage the power
