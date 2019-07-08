@@ -18,7 +18,7 @@ export default () => (
       <div className="center">
         <Button
           as="a"
-          href={require('../assets/jordan-sim-smith-cv.pdf')}
+          href="https://s3-ap-southeast-2.amazonaws.com/jordan.sim-smith.co.nz/cv.pdf"
           download>
           <Icon name="download" />
           Download PDF
@@ -28,7 +28,7 @@ export default () => (
       <div className="center">
         <Image
           id="resume"
-          src={require('../images/cv.png')}
+          src="https://s3-ap-southeast-2.amazonaws.com/jordan.sim-smith.co.nz/cv.png"
           fluid
           rounded
           bordered
