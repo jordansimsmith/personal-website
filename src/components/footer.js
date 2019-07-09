@@ -51,7 +51,7 @@ class Footer extends React.Component {
                 <Header as="h4" inverted>
                   Updated
                 </Header>
-                <p>Jordan Sim-Smith, May 2019</p>
+                <p>Jordan Sim-Smith, July 2019</p>
               </Grid.Column>
             </Grid.Row>
           </Grid>
