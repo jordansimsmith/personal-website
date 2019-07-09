@@ -1,5 +1,5 @@
 .landing.background {
-  background-image: url('../images/background.jpg');
+  background-image: url('../images/code.png');
 
   background-position: center;
   background-repeat: no-repeat;
@@ -41,4 +41,5 @@ div.content {
 
 h1.ui.header {
   font-size: 5em;
+  color: white;
 }
