@@ -24,6 +24,58 @@ export default () => (
       </Header>
 
       <Card fluid>
+        <Image fluid src={require('../images/are-you-hitler.png')} />
+        <Card.Content>
+          <Card.Header>Are You Hitler?</Card.Header>
+          <Card.Meta>July 2019</Card.Meta>
+          <Card.Description>
+            <p>
+              One of my favourite activities is playing the social deduction
+              game: <a href="https://secrethitler.com">Secret Hitler</a>. I
+              developed a web application to track records of our games so each
+              statistics can be made available for each user.
+            </p>
+            <p>
+              I architected this application using microservices with Docker and
+              Docker Compose. I wrote the API service in Golang using the
+              <a href="https://github.com/gin-gonic/gin"> Gin API framework </a>
+              and a MariaDB database. I wrote the client application using
+              React.js. I configured NGINX to serve static files and to act as a
+              reverse proxy to the API. API documentation was written in
+              <a href="https://swagger.io"> Swagger</a>.
+            </p>
+            <Button
+              as="a"
+              href="https://github.com/jordansimsmith/are-you-hitler"
+              target="_blank"
+              size="mini">
+              <Icon name="github" />
+              GitHub Repository
+            </Button>
+          </Card.Description>
+        </Card.Content>
+        <Card.Content extra>
+          <Label>Golang</Label>
+          <Label>
+            <Icon name="react" color="blue" />
+            React.js
+          </Label>
+          <Label>
+            <Icon name="docker" color="blue" />
+            Docker
+          </Label>
+          <Label>
+            <Icon name="database" color="orange" />
+            MariaDB
+          </Label>
+          <Label>
+            <Icon name="server" color="green" />
+            NGINX
+          </Label>
+        </Card.Content>
+      </Card>
+
+      <Card fluid>
         <Image fluid src={require('../images/waterboy.png')} />
         <Card.Content>
           <Card.Header>Water Boy</Card.Header>
