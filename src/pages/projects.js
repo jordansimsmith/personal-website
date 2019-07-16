@@ -31,9 +31,9 @@ export default () => (
           <Card.Description>
             <p>
               One of my favourite activities is playing the social deduction
-              game: <a href="https://secrethitler.com">Secret Hitler</a>. I
-              developed a web application to track records of our games so each
-              statistics can be made available for each user.
+              game: <a href="https://secrethitler.com">Secret Hitler</a> with my
+              friends. I developed a web application to track records of our
+              games so each statistics can be made available for each user.
             </p>
             <p>
               I architected this application using microservices with Docker and
@@ -42,7 +42,9 @@ export default () => (
               and a MariaDB database. I wrote the client application using
               React.js. I configured NGINX to serve static files and to act as a
               reverse proxy to the API. API documentation was written in
-              <a href="https://swagger.io"> Swagger</a>.
+              <a href="https://swagger.io"> Swagger</a>. I used
+              <a href="https://auth0.com"> Auth0</a> to secure my App and API
+              with JSON Web Tokens.
             </p>
             <Button
               as="a"
@@ -71,6 +73,10 @@ export default () => (
           <Label>
             <Icon name="server" color="green" />
             NGINX
+          </Label>
+          <Label>
+            <Icon name="key" color="red" />
+            Auth0
           </Label>
         </Card.Content>
       </Card>
