@@ -10,7 +10,7 @@ import 'semantic-ui-css/semantic.min.css';
 import '../styles/default.css';
 
 export default () => (
-  <div>
+  <div className="content-wrap">
     <Helmet>
       <title>Jordan Sim-Smith</title>
 

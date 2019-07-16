@@ -5,7 +5,7 @@ import Navigation from '../components/navigation';
 import Footer from '../components/footer';
 
 export default () => (
-  <div>
+  <div className="content-wrap">
     <Navigation />
 
     <Container className="content box">
