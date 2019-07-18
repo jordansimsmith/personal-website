@@ -4,6 +4,7 @@ jobs:
     docker:
       - image: node
     steps:
+      - add_ssh_keys
       - checkout
       - run:
           name: Setup git user
