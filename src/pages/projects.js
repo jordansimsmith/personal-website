@@ -26,7 +26,7 @@ export default () => (
       <Card fluid>
         <Image fluid src={require('../images/are-you-hitler.png')} />
         <Card.Content>
-          <Card.Header>Are You Hitler?</Card.Header>
+          <Card.Header>Secret Stats</Card.Header>
           <Card.Meta>July 2019</Card.Meta>
           <Card.Description>
             <p>
@@ -48,7 +48,7 @@ export default () => (
             </p>
             <Button
               as="a"
-              href="https://github.com/jordansimsmith/are-you-hitler"
+              href="https://github.com/jordansimsmith/secret-stats"
               target="_blank"
               size="mini">
               <Icon name="github" />
