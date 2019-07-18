@@ -258,6 +258,9 @@ export default () => (
             <Table.Cell>Sailing</Table.Cell>
           </Table.Row>
           <Table.Row textAlign="center">
+            <Table.Cell>Football</Table.Cell>
+          </Table.Row>
+          <Table.Row textAlign="center">
             <Table.Cell>Entrepreneurship</Table.Cell>
           </Table.Row>
         </Table.Body>
