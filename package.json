@@ -1,6 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "description": "Gatsby hello world starter",
+  "name": "personal-website",
+  "description": "jordan.sim-smith.co.nz",
+  "author": "Jordan Sim-Smith",
   "license": "MIT",
   "scripts": {
     "deploy": "gatsby build --prefix-paths && gh-pages -d public",
