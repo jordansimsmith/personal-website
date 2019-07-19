@@ -54,6 +54,14 @@ export default () => (
               <Icon name="github" />
               GitHub Repository
             </Button>
+            <Button
+              as="a"
+              href="http://secretstats.org"
+              target="_blank"
+              size="mini">
+              <Icon name="globe" />
+              Live Version
+            </Button>
           </Card.Description>
         </Card.Content>
         <Card.Content extra>
