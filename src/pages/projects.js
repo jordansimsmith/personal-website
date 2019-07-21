@@ -13,7 +13,7 @@ import {
 import Footer from '../components/footer';
 import Navigation from '../components/navigation';
 
-export default () => (
+const projects = () => (
   <div className="content-wrap">
     <Navigation />
 
@@ -217,3 +217,5 @@ export default () => (
     <Footer />
   </div>
 );
+
+export default projects;

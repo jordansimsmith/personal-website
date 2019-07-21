@@ -5,7 +5,7 @@ import {Container, Header, Icon, Form, Button} from 'semantic-ui-react';
 import Footer from '../components/footer';
 import Navigation from '../components/navigation';
 
-export default () => (
+const contact = () => (
   <div className="content-wrap">
     <Navigation />
 
@@ -70,3 +70,5 @@ export default () => (
     <Footer />
   </div>
 );
+
+export default contact;

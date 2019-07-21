@@ -5,7 +5,7 @@ import {Container, Header, Icon, Image, Button} from 'semantic-ui-react';
 import Footer from '../components/footer';
 import Navigation from '../components/navigation';
 
-export default () => (
+const resume = () => (
   <div className="content-wrap">
     <Navigation />
 
@@ -39,3 +39,5 @@ export default () => (
     <Footer />
   </div>
 );
+
+export default resume;

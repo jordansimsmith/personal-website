@@ -9,7 +9,7 @@ import Navigation from '../components/navigation';
 import 'semantic-ui-css/semantic.min.css';
 import '../styles/default.css';
 
-export default () => (
+const index = () => (
   <div className="content-wrap">
     <Helmet>
       <title>Jordan Sim-Smith</title>
@@ -91,3 +91,5 @@ export default () => (
     <Footer />
   </div>
 );
+
+export default index;

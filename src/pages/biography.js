@@ -4,7 +4,7 @@ import {Header, Icon, List, Container, Item, Table} from 'semantic-ui-react';
 import Navigation from '../components/navigation';
 import Footer from '../components/footer';
 
-export default () => (
+const biography = () => (
   <div className="content-wrap">
     <Navigation />
 
@@ -270,3 +270,5 @@ export default () => (
     <Footer />
   </div>
 );
+
+export default biography;
