@@ -1,5 +1,13 @@
 import React from 'react';
-import {Header, Icon, List, Container, Item, Table} from 'semantic-ui-react';
+import {
+  Header,
+  Icon,
+  List,
+  Container,
+  Item,
+  Table,
+  Divider,
+} from 'semantic-ui-react';
 
 import Navigation from '../components/navigation';
 import Footer from '../components/footer';
@@ -92,6 +100,8 @@ const biography = () => (
             </Item.Description>
           </Item.Content>
         </Item>
+
+        <Divider />
 
         <Item>
           <Item.Image size="medium" src={require('../images/smc.jpg')} />
