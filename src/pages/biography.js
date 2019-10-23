@@ -52,6 +52,16 @@ const biography = () => (
               <Header as="h4">Notable Courses</Header>
               <List bulleted>
                 <List.Item>
+                  <List.Header>Software Architecture</List.Header>
+                  Designing WebService architectures for performance,
+                  modifiability and availability.
+                </List.Item>
+                <List.Item>
+                  <List.Header>Operating Systems</List.Header>
+                  Processes, threads, memory and file systems in UNIX operating
+                  systems.
+                </List.Item>
+                <List.Item>
                   <List.Header>Fundamentals of Database Systems</List.Header>
                   Building relational DBMS queries in SQL, Relational Algebra
                   and Relational Calculus.
@@ -87,6 +97,11 @@ const biography = () => (
                 <List.Item>
                   <List.Header>Software Engineering Design</List.Header>A
                   semester-long pair project using version control.
+                </List.Item>
+                <List.Item>
+                  <List.Header>Software Engineering Design 2</List.Header>Two
+                  6-week group projects using version control and agile
+                  practices.
                 </List.Item>
               </List>
               <Header as="h4">Achievements</Header>
@@ -142,15 +157,15 @@ const biography = () => (
           </Table.Row>
           <Table.Row textAlign="center">
             <Table.Cell>Golang</Table.Cell>
-            <Table.Cell>Algorithms</Table.Cell>
+            <Table.Cell>C#</Table.Cell>
           </Table.Row>
           <Table.Row textAlign="center">
             <Table.Cell>Python</Table.Cell>
-            <Table.Cell>Data Structures</Table.Cell>
+            <Table.Cell>Algorithms</Table.Cell>
           </Table.Row>
           <Table.Row textAlign="center">
             <Table.Cell>Node.js</Table.Cell>
-            <Table.Cell />
+            <Table.Cell>Data Structures</Table.Cell>
           </Table.Row>
           <Table.Row textAlign="center">
             <Table.Cell>Docker</Table.Cell>
