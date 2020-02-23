@@ -24,6 +24,48 @@ const projects = () => (
       </Header>
 
       <Card fluid>
+        <Image fluid src={require('../images/five-hundred-scorer.png')} />
+        <Card.Content>
+          <Card.Header>500 Scorer</Card.Header>
+          <Card.Meta>February 2020</Card.Meta>
+          <Card.Description>
+            <p>
+              The 500 card game is a popular activity for my family when on
+              holiday. 500 requires a pen and paper to score, however, we rarely
+              have these on hand when playing. I developed this simple app to
+              facilitate scoring of 500 games on the go, without pen or paper.
+            </p>
+            <p>
+              I developed this mobile application using Expo, React Native and
+              TypeScript. I used the{' '}
+              <a href="https://reactnativepaper.com/">React Native Paper</a>{' '}
+              material design libary to standardise the app design.
+            </p>
+            <Button
+              as="a"
+              href="https://github.com/jordansimsmith/five-hundred-scorer"
+              target="_blank"
+              size="mini"
+            >
+              <Icon name="github" />
+              GitHub Repository
+            </Button>
+          </Card.Description>
+        </Card.Content>
+        <Card.Content extra>
+          <Label>
+            <Icon name="react" color="blue" />
+            React Native
+          </Label>
+          <Label>TypeScript</Label>
+          <Label>
+            <Icon name="css3" color="blue" />
+            CSS
+          </Label>
+        </Card.Content>
+      </Card>
+
+      <Card fluid>
         <Image fluid src={require('../images/are-you-hitler.png')} />
         <Card.Content>
           <Card.Header>Secret Stats</Card.Header>
