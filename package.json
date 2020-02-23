@@ -10,18 +10,19 @@
     "serve": "gatsby serve"
   },
   "dependencies": {
-    "gatsby": "^1.9.277",
-    "gatsby-link": "^1.6.46",
-    "gatsby-plugin-react-helmet": "^2.0.11",
-    "react-helmet": "^5.2.0",
-    "react-parallax": "^1.8.0",
-    "semantic-ui-css": "^2.3.3",
-    "semantic-ui-react": "^0.82.2"
+    "gatsby": "^2.19.19",
+    "gatsby-link": "^2.2.29",
+    "gatsby-plugin-react-helmet": "^3.1.22",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "react-parallax": "^3.0.3",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.88.2"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.15.3",
-    "eslint-plugin-react": "^7.12.4",
-    "gh-pages": "^1.2.0"
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.18.3",
+    "gh-pages": "^2.2.0"
   }
 }
