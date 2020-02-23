@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Container, Header, Icon, Image, Button} from 'semantic-ui-react';
+import { Container, Header, Icon, Image, Button } from 'semantic-ui-react';
 
 import Footer from '../components/footer';
 import Navigation from '../components/navigation';
@@ -19,7 +19,8 @@ const resume = () => (
         <Button
           as="a"
           href="https://s3-ap-southeast-2.amazonaws.com/jordan.sim-smith.co.nz/cv.pdf"
-          download>
+          download
+        >
           <Icon name="download" />
           Download PDF
         </Button>

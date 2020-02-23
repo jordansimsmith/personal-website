@@ -1,5 +1,5 @@
 import React from 'react';
-import {List, Container, Segment, Grid, Header} from 'semantic-ui-react';
+import { List, Container, Segment, Grid, Header } from 'semantic-ui-react';
 
 import Link from 'gatsby-link';
 
@@ -7,7 +7,7 @@ class Footer extends React.Component {
   render() {
     return (
       <div className="footer">
-        <Segment inverted vertical style={{padding: '5em 0em'}}>
+        <Segment inverted vertical style={{ padding: '5em 0em' }}>
           <Container>
             <Grid divided inverted stackable>
               <Grid.Row>
@@ -17,13 +17,15 @@ class Footer extends React.Component {
                     <List.Item
                       as="a"
                       href="https://www.linkedin.com/in/jordansimsmith/"
-                      target="_blank">
+                      target="_blank"
+                    >
                       LinkedIn
                     </List.Item>
                     <List.Item
                       as="a"
                       href="https://github.com/jordansimsmith"
-                      target="_blank">
+                      target="_blank"
+                    >
                       GitHub
                     </List.Item>
                   </List>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Container, Header, Icon, Form, Button} from 'semantic-ui-react';
+import { Container, Header, Icon, Form, Button } from 'semantic-ui-react';
 
 import Footer from '../components/footer';
 import Navigation from '../components/navigation';
@@ -27,14 +27,16 @@ const contact = () => (
           as="a"
           href="https://www.linkedin.com/in/jordansimsmith/"
           target="_blank"
-          color="blue">
+          color="blue"
+        >
           My LinkedIn
         </Button>
       </div>
 
       <Form
         method="POST"
-        action="https://formspree.io/jordansimsmith@gmail.com">
+        action="https://formspree.io/jordansimsmith@gmail.com"
+      >
         <Form.Input
           type="text"
           name="name"

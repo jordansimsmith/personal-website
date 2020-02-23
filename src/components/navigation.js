@@ -1,5 +1,5 @@
 import React from 'react';
-import {Menu, Container, Image} from 'semantic-ui-react';
+import { Menu, Container, Image } from 'semantic-ui-react';
 import Link from 'gatsby-link';
 
 class Navigation extends React.Component {
@@ -11,7 +11,7 @@ class Navigation extends React.Component {
             <Image
               size="mini"
               src={require('../images/portrait.jpg')}
-              style={{marginRight: '1.5em'}}
+              style={{ marginRight: '1.5em' }}
             />
             Jordan Sim-Smith
           </Menu.Item>

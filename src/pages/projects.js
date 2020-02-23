@@ -50,7 +50,8 @@ const projects = () => (
               as="a"
               href="https://github.com/jordansimsmith/secret-stats"
               target="_blank"
-              size="mini">
+              size="mini"
+            >
               <Icon name="github" />
               GitHub Repository
             </Button>
@@ -58,7 +59,8 @@ const projects = () => (
               as="a"
               href="http://secretstats.org"
               target="_blank"
-              size="mini">
+              size="mini"
+            >
               <Icon name="globe" />
               Live Version
             </Button>
@@ -107,7 +109,8 @@ const projects = () => (
               as="a"
               href="https://github.com/jordansimsmith/waterboy"
               target="_blank"
-              size="mini">
+              size="mini"
+            >
               <Icon name="github" />
               GitHub Repository
             </Button>
@@ -151,7 +154,8 @@ const projects = () => (
               as="a"
               href="https://github.com/jordansimsmith/webtex"
               target="_blank"
-              size="mini">
+              size="mini"
+            >
               <Icon name="github" />
               GitHub Repository
             </Button>
@@ -187,7 +191,8 @@ const projects = () => (
             as="a"
             href="https://github.com/jordansimsmith/personal-website"
             target="_blank"
-            size="mini">
+            size="mini"
+          >
             <Icon name="github" />
             GitHub Repository
           </Button>
