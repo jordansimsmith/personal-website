@@ -13,6 +13,9 @@ import {
 import Footer from '../components/footer';
 import Navigation from '../components/navigation';
 
+import 'semantic-ui-css/semantic.min.css';
+import '../styles/default.css';
+
 const projects = () => (
   <div className="content-wrap">
     <Navigation />

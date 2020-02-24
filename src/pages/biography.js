@@ -12,6 +12,9 @@ import {
 import Navigation from '../components/navigation';
 import Footer from '../components/footer';
 
+import 'semantic-ui-css/semantic.min.css';
+import '../styles/default.css';
+
 const biography = () => (
   <div className="content-wrap">
     <Navigation />
