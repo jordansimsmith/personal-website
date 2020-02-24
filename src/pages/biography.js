@@ -145,58 +145,41 @@ const biography = () => (
       <Table celled>
         <Table.Header>
           <Table.Row textAlign="center">
-            <Table.HeaderCell>I am confident with</Table.HeaderCell>
-            <Table.HeaderCell>I have experience with</Table.HeaderCell>
+            <Table.HeaderCell colSpan="2">I am confident with</Table.HeaderCell>
           </Table.Row>
         </Table.Header>
 
         <Table.Body>
           <Table.Row textAlign="center">
             <Table.Cell>Java</Table.Cell>
-            <Table.Cell>React.js</Table.Cell>
-          </Table.Row>
-          <Table.Row textAlign="center">
-            <Table.Cell>Golang</Table.Cell>
             <Table.Cell>C#</Table.Cell>
           </Table.Row>
           <Table.Row textAlign="center">
+            <Table.Cell>Golang</Table.Cell>
             <Table.Cell>Python</Table.Cell>
-            <Table.Cell>Algorithms</Table.Cell>
           </Table.Row>
           <Table.Row textAlign="center">
-            <Table.Cell>Node.js</Table.Cell>
-            <Table.Cell>Data Structures</Table.Cell>
+            <Table.Cell>JavaScript</Table.Cell>
+            <Table.Cell>TypeScript</Table.Cell>
           </Table.Row>
           <Table.Row textAlign="center">
             <Table.Cell>Docker</Table.Cell>
-            <Table.Cell />
-          </Table.Row>
-          <Table.Row textAlign="center">
-            <Table.Cell>AWS</Table.Cell>
-            <Table.Cell />
-          </Table.Row>
-          <Table.Row textAlign="center">
             <Table.Cell>Git</Table.Cell>
-            <Table.Cell />
-          </Table.Row>
-          <Table.Row textAlign="center">
-            <Table.Cell>Unit Testing</Table.Cell>
-            <Table.Cell />
-          </Table.Row>
-          <Table.Row textAlign="center">
-            <Table.Cell>CI/ CD</Table.Cell>
-            <Table.Cell />
-          </Table.Row>
-          <Table.Row textAlign="center">
-            <Table.Cell>Linux</Table.Cell>
-            <Table.Cell />
           </Table.Row>
           <Table.Row textAlign="center">
             <Table.Cell>Bash</Table.Cell>
-            <Table.Cell />
+            <Table.Cell>SQL</Table.Cell>
           </Table.Row>
           <Table.Row textAlign="center">
-            <Table.Cell>SQL</Table.Cell>
+            <Table.Cell>AWS</Table.Cell>
+            <Table.Cell>Linux</Table.Cell>
+          </Table.Row>
+          <Table.Row textAlign="center">
+            <Table.Cell>Unit Testing</Table.Cell>
+            <Table.Cell>CI/CD</Table.Cell>
+          </Table.Row>
+          <Table.Row textAlign="center">
+            <Table.Cell>React</Table.Cell>
             <Table.Cell />
           </Table.Row>
         </Table.Body>
