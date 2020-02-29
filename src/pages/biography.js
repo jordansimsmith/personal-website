@@ -197,6 +197,53 @@ const biography = () => (
 
       <Item.Group>
         <Item>
+          <Item.Image size="medium" src={require('../images/nintex.png')} />
+          <Item.Content>
+            <Item.Header as="h4">Nintex</Item.Header>
+            <Item.Meta>
+              Associate Developer Intern, November 2019 - February 2020
+            </Item.Meta>
+            <Item.Description>
+              <p>
+                &quot;Build, improve and share process knowledge from a central
+                online repository with Nintex Promapp's business process
+                management (BPM) software. Turn complex process maps, Visio
+                charts and procedure documents into clean, simple process maps
+                that everyone can find and follow.&quot; - promapp.com
+              </p>
+              <p>
+                I worked as a Associate Developer Intern at Nintex during my
+                university summer holidays. This internship provided a great
+                opportunity to build upon skills that I have developed through
+                university, previous work experience and personal projects.
+              </p>
+              <p>
+                At Nintex, I collaborated on Promapp production stories with
+                team members in an agile environment. I Developed backend
+                features using C#, .NET Core, Entity Framework and SQL Server. I
+                Developed frontent features using TypeScript and React. I Wrote
+                testable code and wrote unit tests for all features using XUnit
+                and Moq.
+              </p>
+
+              <Header as="h4">Technologies Used</Header>
+              <List bulleted>
+                <List.Item>C#</List.Item>
+                <List.Item>.NET Core</List.Item>
+                <List.Item>SQL Server</List.Item>
+                <List.Item>TypeScript</List.Item>
+                <List.Item>React</List.Item>
+                <List.Item>Docker</List.Item>
+              </List>
+            </Item.Description>
+          </Item.Content>
+        </Item>
+      </Item.Group>
+
+      <Divider />
+
+      <Item.Group>
+        <Item>
           <Item.Image size="medium" src={require('../images/autogrow.jpg')} />
           <Item.Content>
             <Item.Header as="h4">Autogrow Systems Limited</Item.Header>
