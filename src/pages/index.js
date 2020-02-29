@@ -52,7 +52,7 @@ const index = () => (
             <Item.Header as="h3">Hi there!</Item.Header>
             <Item.Description>
               <p>
-                Hi there! My name is Jordan Sim-Smith, and I am a third-year
+                Hi there! My name is Jordan Sim-Smith, and I am a final-year
                 Software Engineering student at the University of Auckland with
                 a passion for learning. I enjoy working my way through
                 challenging problems while teaching myself new skills at the
@@ -60,9 +60,9 @@ const index = () => (
               </p>
               <p>
                 I bring academic and industry experience to any task. My most
-                recent position as a Software Engineer Intern at Autogrow
-                Systems Limited allowed me to apply the skills and techniques
-                that I have learned through university to real-world problems.
+                recent position as an Associate Developer Intern at Nintex
+                allowed me to apply the skills and techniques that I have
+                learned through university to real-world problems.
               </p>
               <p>
                 I am not solely interested in development; the financial aspect
@@ -74,13 +74,14 @@ const index = () => (
               <p>
                 One way that I like to challenge myself and learn new skills is
                 to build personal projects. This website is an example of one; I
-                am learning React.js as I go! I will add future projects to this
-                website as they are ready.
+                learnt React.js through building it! Check out the
+                <a href="/projects"> projects</a> section for other cool
+                projects that I have been working on.
               </p>
               <p>
                 Thank you for taking the time to learn a bit about me. Please do
-                not hesitate to visit the contact section if you wish to send me
-                an email. Have a good day.
+                not hesitate to visit the <a href="/contact">contact</a> section
+                if you wish to get in touch. Have a good day.
               </p>
             </Item.Description>
           </Item.Content>
