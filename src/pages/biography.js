@@ -35,28 +35,44 @@ const biography = () => (
             <Item.Meta>The University of Auckland, 2017 - 2020</Item.Meta>
             <Item.Description>
               <p>
-                I am three years into a four year Bachelor of Engineering in
-                Software at the University of Auckland. Problem-solving has
-                always fascinated me as it requires logical thought and a
-                systematic approach. Designing software as a response to a
-                specific problem feels like a natural extension to solving these
-                problems. Having enjoyed programming in high-school, I enrolled
-                in the engineering program at UoA, with the goal of learning the
-                skills necessary to develop software in the professional world.
+                I am in my fourth and final year of a Bachelor of Engineering
+                (Software) at the University of Auckland. Software engineering
+                is constantly changing, with new discoveries being made every
+                day. This drives my passion for software engineering, as every
+                day is different, and something new can be learned.
               </p>
 
               <p>
-                I am part of the Software Engineering Students Association
-                (SESA). I am also on the Executive Team of the UoA Developer’s
-                Society, which teaches industry relevant skills to students to
-                help them find internships.
+                I am a founding executive member and Technical Lead for the UoA
+                Developer’s Society, the largest student tech club in New
+                Zealand. I lead a team of 9 to produce high quality technical
+                workshops for hundreds of students.
               </p>
 
               <Header as="h4">Notable Courses</Header>
               <List bulleted>
                 <List.Item>
+                  <List.Header>
+                    Advanced Software Development Methodologies
+                  </List.Header>
+                  Collaboration in large teams, working on open source software
+                  projects.
+                </List.Item>
+                <List.Item>
+                  <List.Header>Software Development Methodologies</List.Header>
+                  12-week project involving user interviews, beta testing,
+                  continuous integration and deployment.
+                </List.Item>
+                <List.Item>
+                  <List.Header>
+                    Advanced Software Requirements Engineering
+                  </List.Header>
+                  Requirements elicitation, test driven development, behaviour
+                  driven development.
+                </List.Item>
+                <List.Item>
                   <List.Header>Software Architecture</List.Header>
-                  Designing WebService architectures for performance,
+                  Designing service oriented architectures for performance,
                   modifiability and availability.
                 </List.Item>
                 <List.Item>
@@ -109,8 +125,14 @@ const biography = () => (
               </List>
               <Header as="h4">Achievements</Header>
               <List bulleted>
-                <List.Item>GPA: 8.7/9</List.Item>
-                <List.Item>Dean’s Honour List 2017, 2018</List.Item>
+                <List.Item>GPA: 8.7/9 (A/A+ average)</List.Item>
+                <List.Item>
+                  Dean’s Honours List (top 5% in cohort) 2017, 2018, 2019
+                </List.Item>
+                <List.Item>
+                  First in course award for Software Architecture, Software
+                  Engineering Design 2, Fundamentals of Computer Engineering.
+                </List.Item>
                 <List.Item>
                   Top Achiever Scholarship valued at $20,000
                 </List.Item>
