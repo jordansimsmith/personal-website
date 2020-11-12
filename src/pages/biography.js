@@ -53,6 +53,13 @@ const biography = () => (
               <List bulleted>
                 <List.Item>
                   <List.Header>
+                    Advanced Agile and Lean Software Development
+                  </List.Header>
+                  Scrum collaboration in a distributed environment to build a
+                  product for a real client.
+                </List.Item>
+                <List.Item>
+                  <List.Header>
                     Advanced Software Development Methodologies
                   </List.Header>
                   Collaboration in large teams, working on open source software
@@ -130,8 +137,9 @@ const biography = () => (
                   Dean’s Honours List (top 5% in cohort) 2017, 2018, 2019
                 </List.Item>
                 <List.Item>
-                  First in course award for Software Architecture, Software
-                  Engineering Design 2, Fundamentals of Computer Engineering.
+                  First in course award for Software Development Methodologies,
+                  Software Architecture, Software Engineering Design 2,
+                  Fundamentals of Computer Engineering.
                 </List.Item>
                 <List.Item>
                   Top Achiever Scholarship valued at $20,000
