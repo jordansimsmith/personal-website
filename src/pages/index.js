@@ -52,25 +52,21 @@ const index = () => (
             <Item.Header as="h3">Hi there!</Item.Header>
             <Item.Description>
               <p>
-                Hi there! My name is Jordan Sim-Smith, and I am a final-year
-                Software Engineering student at the University of Auckland with
-                a passion for learning. I enjoy working my way through
+                Hi there! My name is Jordan Sim-Smith, and I am a graduate
+                software engineer from the University of Auckland, and an
+                Associate Developer at Nintex. I enjoy working my way through
                 challenging problems while teaching myself new skills at the
                 same time.
               </p>
+
               <p>
-                I bring academic and industry experience to any task. My most
-                recent position as an Associate Developer Intern at Nintex
-                allowed me to apply the skills and techniques that I have
-                learned through university to real-world problems.
+                Software engineering is an incredibly fast moving field. This
+                volatility drives my passion; there is always something new to
+                learn to improve the way that things are currently done. The
+                challenges faced and solutions developed every day are ever
+                changing and evolving.
               </p>
-              <p>
-                I am not solely interested in development; the financial aspect
-                of a company intrigues me too! Alongside my study, I have
-                cofounded and co-run a mobile phone trading/repairing company. I
-                have a natural interest in entrepreneurship, and I would love to
-                create a startup company using the latest software.
-              </p>
+
               <p>
                 One way that I like to challenge myself and learn new skills is
                 to build personal projects. This website is an example of one; I
@@ -78,10 +74,11 @@ const index = () => (
                 <a href="/projects"> projects</a> section for other cool
                 projects that I have been working on.
               </p>
+
               <p>
                 Thank you for taking the time to learn a bit about me. Please do
                 not hesitate to visit the <a href="/contact">contact</a> section
-                if you wish to get in touch. Have a good day.
+                if you wish to get in touch. Have a great day!
               </p>
             </Item.Description>
           </Item.Content>
