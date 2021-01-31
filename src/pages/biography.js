@@ -21,6 +21,197 @@ const biography = () => (
 
     <Container className="content box">
       <Header as="h2" icon textAlign="center">
+        <Icon name="briefcase" />
+        <Header.Content>Experience</Header.Content>
+      </Header>
+
+      <Item.Group>
+        <Item>
+          <Item.Image size="medium" src={require('../images/nintex.png')} />
+          <Item.Content>
+            <Item.Header as="h4">Nintex</Item.Header>
+            <Item.Meta>
+              Associate Developer Intern, November 2019 - February 2020
+            </Item.Meta>
+            <Item.Description>
+              <p>
+                &quot;Build, improve and share process knowledge from a central
+                online repository with Nintex Promapp's business process
+                management (BPM) software. Turn complex process maps, Visio
+                charts and procedure documents into clean, simple process maps
+                that everyone can find and follow.&quot; - promapp.com
+              </p>
+              <p>
+                I worked as a Associate Developer Intern at Nintex during my
+                university summer holidays. This internship provided a great
+                opportunity to build upon skills that I have developed through
+                university, previous work experience and personal projects.
+              </p>
+
+              <List bulleted>
+                <List.Item>
+                  Designed components for an Azure Cognitive Search based
+                  microservice.
+                </List.Item>
+
+                <List.Item>
+                  Individually containerised existing microservices using Docker
+                  and .NET Core.
+                </List.Item>
+
+                <List.Item>
+                  Awarded R & D legend of the month for independently upgrading
+                  legacy software, resolving issues experienced by hundreds of
+                  customers.
+                </List.Item>
+
+                <List.Item>
+                  Collaborated on Promapp production stories with team members
+                  in an agile environment.
+                </List.Item>
+
+                <List.Item>
+                  Developed full stack features using C#, .NET Core, SQL Server,
+                  TypeScript and React.
+                </List.Item>
+              </List>
+
+              <Header as="h4">Technologies Used</Header>
+              <List bulleted>
+                <List.Item>C#</List.Item>
+                <List.Item>.NET Core</List.Item>
+                <List.Item>SQL Server</List.Item>
+                <List.Item>TypeScript</List.Item>
+                <List.Item>React</List.Item>
+                <List.Item>Docker</List.Item>
+              </List>
+            </Item.Description>
+          </Item.Content>
+        </Item>
+      </Item.Group>
+
+      <Divider />
+
+      <Item.Group>
+        <Item>
+          <Item.Image size="medium" src={require('../images/autogrow.jpg')} />
+          <Item.Content>
+            <Item.Header as="h4">Autogrow Systems Limited</Item.Header>
+            <Item.Meta>
+              Software Engineer Intern, June 2018 - February 2019
+            </Item.Meta>
+            <Item.Description>
+              <p>
+                "Autogrow creates automation solutions that leverage the power
+                of technology, data science and plant biology to provide growers
+                affordable, accessible and easy-to-use innovation – 24/7,
+                anywhere in the world." - autogrow.com
+              </p>
+              <p>
+                I worked as a Software Engineer Intern at Autogrow during my
+                breaks from University. Autogrow allowed me to apply university
+                taught theory to applications in the industry.
+              </p>
+              <p>
+                My position at Autogrow taught me many new skills, both
+                technical and professional. It was an excellent opportunity to
+                apply skills developed through university to real products. It
+                has been a great experience working with others in an agile
+                setting, something that cannot be easily taught in a course.
+              </p>
+
+              <List bulleted>
+                <List.Item>
+                  Designed and implemented RESTful APIs in Golang on AWS to
+                  scale a greenhouse health computer vision solution.
+                </List.Item>
+
+                <List.Item>
+                  Architected and implemented a serverless, event-driven push
+                  notifications system for browsers. Used AWS services such as
+                  API Gateway, Lambda, DynamoDB, SNS, SQS.
+                </List.Item>
+
+                <List.Item>
+                  Redesigned an Python image processing pipeline for performance
+                  improvements exceeding 50x.
+                </List.Item>
+
+                <List.Item>
+                  Maintained a Continuous Integration workflow using
+                  CodePipeline and CloudFormation, saving hundreds of developer
+                  hours per month.
+                </List.Item>
+              </List>
+
+              <Header as="h4">Technologies Used</Header>
+              <List bulleted>
+                <List.Item>Golang</List.Item>
+                <List.Item>Python</List.Item>
+                <List.Item>
+                  AWS API Gateway, Lambda, DynamoDB, S3, Step Functions,
+                  CloudFormation, Code Pipeline
+                </List.Item>
+                <List.Item>Machine Vision</List.Item>
+              </List>
+            </Item.Description>
+          </Item.Content>
+        </Item>
+      </Item.Group>
+    </Container>
+
+    <Container className="content box">
+      <Header as="h2" icon textAlign="center">
+        <Icon name="terminal" />
+        <Header.Content>Skills</Header.Content>
+      </Header>
+
+      <Table celled>
+        <Table.Header>
+          <Table.Row textAlign="center">
+            <Table.HeaderCell colSpan="2">I am confident with</Table.HeaderCell>
+          </Table.Row>
+        </Table.Header>
+
+        <Table.Body>
+          <Table.Row textAlign="center">
+            <Table.Cell>Java</Table.Cell>
+            <Table.Cell>C#</Table.Cell>
+          </Table.Row>
+          <Table.Row textAlign="center">
+            <Table.Cell>JavaScript</Table.Cell>
+            <Table.Cell>TypeScript</Table.Cell>
+          </Table.Row>
+          <Table.Row textAlign="center">
+            <Table.Cell>React.js</Table.Cell>
+            <Table.Cell>Python</Table.Cell>
+          </Table.Row>
+          <Table.Row textAlign="center">
+            <Table.Cell>Docker</Table.Cell>
+            <Table.Cell>Git</Table.Cell>
+          </Table.Row>
+          <Table.Row textAlign="center">
+            <Table.Cell>Bash</Table.Cell>
+            <Table.Cell>SQL</Table.Cell>
+          </Table.Row>
+          <Table.Row textAlign="center">
+            <Table.Cell>AWS</Table.Cell>
+            <Table.Cell>Azure</Table.Cell>
+          </Table.Row>
+          <Table.Row textAlign="center">
+            <Table.Cell>Unit Testing</Table.Cell>
+            <Table.Cell>CI/CD</Table.Cell>
+          </Table.Row>
+          <Table.Row textAlign="center">
+            <Table.Cell>Linux</Table.Cell>
+            <Table.Cell></Table.Cell>
+          </Table.Row>
+        </Table.Body>
+      </Table>
+    </Container>
+
+    <Container className="content box">
+      <Header as="h2" icon textAlign="center">
         <Icon name="graduation" />
         <Header.Content>Education</Header.Content>
       </Header>
@@ -35,15 +226,12 @@ const biography = () => (
             <Item.Meta>The University of Auckland, 2017 - 2020</Item.Meta>
             <Item.Description>
               <p>
-                I am in my fourth and final year of a Bachelor of Engineering
-                (Software) at the University of Auckland. Software engineering
-                is constantly changing, with new discoveries being made every
-                day. This drives my passion for software engineering, as every
-                day is different, and something new can be learned.
+                I graduated with a Bachelor of Engineering (Honours) in Software
+                from the University of Auckland in 2020.
               </p>
 
               <p>
-                I am a founding executive member and Technical Lead for the UoA
+                I was a founding executive member and Technical Lead for the UoA
                 Developer’s Society, the largest student tech club in New
                 Zealand. I lead a team of 9 to produce high quality technical
                 workshops for hundreds of students.
@@ -134,7 +322,7 @@ const biography = () => (
               <List bulleted>
                 <List.Item>GPA: 8.7/9 (A/A+ average)</List.Item>
                 <List.Item>
-                  Dean’s Honours List (top 5% in cohort) 2017, 2018, 2019
+                  Dean’s Honours List (top 5% in cohort) 2017, 2018, 2019, 2020
                 </List.Item>
                 <List.Item>
                   First in course award for Software Development Methodologies,
@@ -171,165 +359,6 @@ const biography = () => (
 
     <Container className="content box">
       <Header as="h2" icon textAlign="center">
-        <Icon name="terminal" />
-        <Header.Content>Skills</Header.Content>
-      </Header>
-
-      <Table celled>
-        <Table.Header>
-          <Table.Row textAlign="center">
-            <Table.HeaderCell colSpan="2">I am confident with</Table.HeaderCell>
-          </Table.Row>
-        </Table.Header>
-
-        <Table.Body>
-          <Table.Row textAlign="center">
-            <Table.Cell>Java</Table.Cell>
-            <Table.Cell>C#</Table.Cell>
-          </Table.Row>
-          <Table.Row textAlign="center">
-            <Table.Cell>Golang</Table.Cell>
-            <Table.Cell>Python</Table.Cell>
-          </Table.Row>
-          <Table.Row textAlign="center">
-            <Table.Cell>JavaScript</Table.Cell>
-            <Table.Cell>TypeScript</Table.Cell>
-          </Table.Row>
-          <Table.Row textAlign="center">
-            <Table.Cell>Docker</Table.Cell>
-            <Table.Cell>Git</Table.Cell>
-          </Table.Row>
-          <Table.Row textAlign="center">
-            <Table.Cell>Bash</Table.Cell>
-            <Table.Cell>SQL</Table.Cell>
-          </Table.Row>
-          <Table.Row textAlign="center">
-            <Table.Cell>AWS</Table.Cell>
-            <Table.Cell>Linux</Table.Cell>
-          </Table.Row>
-          <Table.Row textAlign="center">
-            <Table.Cell>Unit Testing</Table.Cell>
-            <Table.Cell>CI/CD</Table.Cell>
-          </Table.Row>
-          <Table.Row textAlign="center">
-            <Table.Cell>React</Table.Cell>
-            <Table.Cell />
-          </Table.Row>
-        </Table.Body>
-      </Table>
-    </Container>
-
-    <Container className="content box">
-      <Header as="h2" icon textAlign="center">
-        <Icon name="briefcase" />
-        <Header.Content>Experience</Header.Content>
-      </Header>
-
-      <Item.Group>
-        <Item>
-          <Item.Image size="medium" src={require('../images/nintex.png')} />
-          <Item.Content>
-            <Item.Header as="h4">Nintex</Item.Header>
-            <Item.Meta>
-              Associate Developer Intern, November 2019 - February 2020
-            </Item.Meta>
-            <Item.Description>
-              <p>
-                &quot;Build, improve and share process knowledge from a central
-                online repository with Nintex Promapp's business process
-                management (BPM) software. Turn complex process maps, Visio
-                charts and procedure documents into clean, simple process maps
-                that everyone can find and follow.&quot; - promapp.com
-              </p>
-              <p>
-                I worked as a Associate Developer Intern at Nintex during my
-                university summer holidays. This internship provided a great
-                opportunity to build upon skills that I have developed through
-                university, previous work experience and personal projects.
-              </p>
-              <p>
-                At Nintex, I collaborated on Promapp production stories with
-                team members in an agile environment. I Developed backend
-                features using C#, .NET Core, Entity Framework and SQL Server. I
-                Developed frontent features using TypeScript and React. I Wrote
-                testable code and wrote unit tests for all features using XUnit
-                and Moq.
-              </p>
-
-              <Header as="h4">Technologies Used</Header>
-              <List bulleted>
-                <List.Item>C#</List.Item>
-                <List.Item>.NET Core</List.Item>
-                <List.Item>SQL Server</List.Item>
-                <List.Item>TypeScript</List.Item>
-                <List.Item>React</List.Item>
-                <List.Item>Docker</List.Item>
-              </List>
-            </Item.Description>
-          </Item.Content>
-        </Item>
-      </Item.Group>
-
-      <Divider />
-
-      <Item.Group>
-        <Item>
-          <Item.Image size="medium" src={require('../images/autogrow.jpg')} />
-          <Item.Content>
-            <Item.Header as="h4">Autogrow Systems Limited</Item.Header>
-            <Item.Meta>
-              Software Engineer Intern, June 2018 - February 2019
-            </Item.Meta>
-            <Item.Description>
-              <p>
-                "Autogrow creates automation solutions that leverage the power
-                of technology, data science and plant biology to provide growers
-                affordable, accessible and easy-to-use innovation – 24/7,
-                anywhere in the world." - autogrow.com
-              </p>
-              <p>
-                I worked as a Software Engineer Intern at Autogrow during my
-                breaks from University. Autogrow allowed me to apply university
-                taught theory to applications in the industry.
-              </p>
-              <p>
-                At Autogrow, I designed and developed several Serverless RESTful
-                APIs using Golang and AWS. AWS API Gateway was used to route
-                requests to be handled by appropriate Lambda functions. The APIs
-                involved many other AWS services such as DynamoDB, S3, Step
-                Functions, SNS, SQS, Batch. I maintained a Continuous
-                Integration workflow using AWS Code Pipeline. I wrote automated
-                unit tests in BDD style using GoConvey. All AWS resources were
-                templated using AWS CloudFormation.
-              </p>
-              <p>
-                My position at Autogrow taught me many new skills, both
-                technical and professional. It was an excellent opportunity to
-                apply skills developed through university to real products. It
-                has been a great experience working with others in an agile
-                setting, something that cannot be easily taught in a course.
-              </p>
-
-              <Header as="h4">Technologies Used</Header>
-              <List bulleted>
-                <List.Item>Golang</List.Item>
-                <List.Item>Python</List.Item>
-                <List.Item>
-                  AWS API Gateway, Lambda, DynamoDB, S3, Step Functions,
-                  CloudFormation, Code Pipeline
-                </List.Item>
-                <List.Item>Machine Vision</List.Item>
-                <List.Item>Jira/Confluence</List.Item>
-                <List.Item>Git/Github</List.Item>
-              </List>
-            </Item.Description>
-          </Item.Content>
-        </Item>
-      </Item.Group>
-    </Container>
-
-    <Container className="content box">
-      <Header as="h2" icon textAlign="center">
         <Icon name="heart" />
         <Header.Content>Interests</Header.Content>
       </Header>
@@ -347,9 +376,6 @@ const biography = () => (
           </Table.Row>
           <Table.Row textAlign="center">
             <Table.Cell>Football</Table.Cell>
-          </Table.Row>
-          <Table.Row textAlign="center">
-            <Table.Cell>Entrepreneurship</Table.Cell>
           </Table.Row>
         </Table.Body>
       </Table>
