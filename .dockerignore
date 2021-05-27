@@ -1,0 +1,8 @@
+node_modules/
+.circleci
+.eslintrc.json
+.gitignore
+LICENSE
+README.md
+Dockerfile
+static/
