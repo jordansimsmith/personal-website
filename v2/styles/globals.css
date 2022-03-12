@@ -14,3 +14,8 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.react-pdf__Page__canvas {
+  width: 100% !important;
+  height: 100% !important;
+}

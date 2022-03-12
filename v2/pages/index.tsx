@@ -1,6 +1,6 @@
 import { Box, Heading, Link, Text } from '@chakra-ui/react';
 
-const Home = (): JSX.Element => {
+const IndexPage = (): JSX.Element => {
   return (
     <Box>
       <Heading size="3xl">
@@ -22,4 +22,4 @@ const Home = (): JSX.Element => {
   );
 };
 
-export default Home;
+export default IndexPage;

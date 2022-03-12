@@ -1,19 +1,7 @@
+import { Box, Flex, Heading, Image, Link, Text } from '@chakra-ui/react';
 import NextLink from 'next/link';
-import {
-  Text,
-  Box,
-  Button,
-  Heading,
-  Image,
-  Wrap,
-  WrapItem,
-  Link,
-  Stack,
-  Flex,
-} from '@chakra-ui/react';
-import { ExternalLinkIcon } from '@chakra-ui/icons';
 
-const About = (): JSX.Element => {
+const AboutPage = (): JSX.Element => {
   return (
     <Flex flexDirection="row">
       <Image
@@ -76,4 +64,4 @@ const About = (): JSX.Element => {
   );
 };
 
-export default About;
+export default AboutPage;
