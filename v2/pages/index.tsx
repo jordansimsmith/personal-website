@@ -1,18 +1,38 @@
-import { Box, Flex, Heading, Image, Link, Text } from '@chakra-ui/react';
+import {
+  Box,
+  Center,
+  Flex,
+  Heading,
+  Image,
+  Link,
+  SimpleGrid,
+  Text,
+  useMediaQuery,
+  VStack,
+} from '@chakra-ui/react';
 import NextLink from 'next/link';
 
 const IndexPage = (): JSX.Element => {
+  const [isWideScreen] = useMediaQuery('(min-width: 1000px)');
+
   return (
-    <Flex flexDirection="row">
-      <Image
-        borderRadius="3xl"
-        alt="Jordan Sim-Smith"
-        src="/portrait.jpg"
-        objectFit="cover"
-        maxWidth="400px"
-        maxHeight="400px"
-      />
-      <Box paddingLeft="40px">
+    <SimpleGrid
+      spacing="40px"
+      gridTemplateColumns={isWideScreen ? '400px auto' : undefined}
+      columns={isWideScreen ? 2 : 1}
+    >
+      <VStack>
+        <Image
+          borderRadius="3xl"
+          alt="Jordan Sim-Smith"
+          src="/portrait.jpg"
+          objectFit="cover"
+          maxWidth="400px"
+          maxHeight="400px"
+        />
+      </VStack>
+
+      <Box>
         <Heading size="3xl">Hi there! 👋</Heading>
 
         <Text marginTop="20px">
@@ -60,7 +80,7 @@ const IndexPage = (): JSX.Element => {
           me if you wish to get in touch. Have a great day!
         </Text>
       </Box>
-    </Flex>
+    </SimpleGrid>
   );
 };
 
