@@ -9,6 +9,7 @@ const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
   return (
     <ChakraProvider>
       <NextHead>
+        <title>Jordan Sim-Smith</title>
         <link
           rel="apple-touch-icon"
           sizes="180x180"

@@ -10,12 +10,14 @@ import {
   Divider,
   Image,
   Text,
+  SimpleGrid,
+  Wrap,
 } from '@chakra-ui/react';
-import React from 'react';
+import React, { Children } from 'react';
 
 type ProjectCardProps = {
   title: string;
-  text: string;
+  children: React.ReactNode;
   imageUrl?: string;
   liveSiteUrl?: string;
   githubRepositoryUrl: string;
@@ -24,7 +26,7 @@ type ProjectCardProps = {
 
 export const ProjectCard = ({
   title,
-  text,
+  children,
   imageUrl,
   liveSiteUrl,
   githubRepositoryUrl,
@@ -39,7 +41,7 @@ export const ProjectCard = ({
           {title}
         </Heading>
 
-        <Text>{text}</Text>
+        {children}
 
         <br />
 
@@ -68,13 +70,13 @@ export const ProjectCard = ({
 
         <Divider />
 
-        <HStack>
+        <Wrap>
           {technologies.map((tech, i) => (
             <Tag size="lg" variant="outline" colorScheme="green" key={i}>
               {tech}
             </Tag>
           ))}
-        </HStack>
+        </Wrap>
       </Stack>
     </Box>
   );
