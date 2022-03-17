@@ -1,8 +1,41 @@
+import { HamburgerIcon } from '@chakra-ui/icons';
+import {
+  Box,
+  Button,
+  ButtonGroup,
+  Heading,
+  IconButton,
+  Menu,
+  MenuButton,
+  MenuItem,
+  MenuList,
+  useMediaQuery,
+} from '@chakra-ui/react';
 import NextLink from 'next/link';
-import { Box, Button, ButtonGroup, Heading } from '@chakra-ui/react';
 import React from 'react';
 
+const links = [
+  {
+    name: 'About',
+    path: '/',
+  },
+  {
+    name: 'Projects',
+    path: '/projects',
+  },
+  {
+    name: 'Resume',
+    path: '/resume',
+  },
+  {
+    name: 'Contact',
+    path: '/contact',
+  },
+];
+
 export const Header = (): JSX.Element => {
+  const [isWideScreen] = useMediaQuery('(min-width: 720px)');
+
   return (
     <Box as="header">
       <Box
@@ -12,37 +45,40 @@ export const Header = (): JSX.Element => {
         padding="10px"
         as="nav"
       >
-        <NextLink href="/" passHref>
-          <Heading as="a" size="lg">
-            Jordan Sim-Smith
-          </Heading>
-        </NextLink>
+        <Heading size="lg">Jordan Sim-Smith</Heading>
 
-        <ButtonGroup>
-          <NextLink href="/" passHref>
-            <Button as="a" colorScheme="green" variant="ghost">
-              About
-            </Button>
-          </NextLink>
+        <Box>
+          {isWideScreen ? (
+            <ButtonGroup>
+              {links.map((link, i) => (
+                <NextLink href={link.path} passHref key={i}>
+                  <Button as="a" colorScheme="green" variant="ghost">
+                    {link.name}
+                  </Button>
+                </NextLink>
+              ))}
+            </ButtonGroup>
+          ) : (
+            <Menu>
+              <MenuButton
+                as={IconButton}
+                icon={<HamburgerIcon />}
+                colorScheme="green"
+                variant="ghost"
+              >
+                hi
+              </MenuButton>
 
-          <NextLink href="/projects" passHref>
-            <Button as="a" colorScheme="green" variant="ghost">
-              Projects
-            </Button>
-          </NextLink>
-
-          <NextLink href="/resume" passHref>
-            <Button as="a" colorScheme="green" variant="ghost">
-              Resume
-            </Button>
-          </NextLink>
-
-          <NextLink href="/contact" passHref>
-            <Button as="a" colorScheme="green" variant="ghost">
-              Contact
-            </Button>
-          </NextLink>
-        </ButtonGroup>
+              <MenuList>
+                {links.map((link, i) => (
+                  <NextLink href={link.path} key={i} passHref>
+                    <MenuItem as="a">{link.name}</MenuItem>
+                  </NextLink>
+                ))}
+              </MenuList>
+            </Menu>
+          )}
+        </Box>
       </Box>
     </Box>
   );
