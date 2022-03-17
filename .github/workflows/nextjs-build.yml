@@ -1,4 +1,4 @@
-name: Gatsby Build Workflow
+name: Next.js Build Workflow
 
 on:
   release:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    name: Build and Push Gatsby Container
+    name: Build and Push Next.js Container
     runs-on: ubuntu-latest
     permissions:
       packages: write
