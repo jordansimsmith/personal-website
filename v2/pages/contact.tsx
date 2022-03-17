@@ -1,4 +1,5 @@
-import { Box, Heading, VStack, Text, Link } from '@chakra-ui/react';
+import { ChatIcon } from '@chakra-ui/icons';
+import { Button, Heading, Link, Text, VStack } from '@chakra-ui/react';
 
 const ContactPage = (): JSX.Element => {
   return (
@@ -16,6 +17,16 @@ const ContactPage = (): JSX.Element => {
         </Link>{' '}
         and I will get back to you.
       </Text>
+
+      <Button
+        href="https://linkedin.com/in/jordansimsmith"
+        target="_blank"
+        as="a"
+        leftIcon={<ChatIcon />}
+        colorScheme="green"
+      >
+        Contact me
+      </Button>
     </VStack>
   );
 };

@@ -1,18 +1,26 @@
-import { ChakraProvider, Container } from '@chakra-ui/react';
+import { ChakraProvider, Container, Flex } from '@chakra-ui/react';
 import { AppProps } from 'next/app';
-import { Navigation } from '../components/Navigation';
+import { Footer } from '../components/Footer';
+import { Header } from '../components/Header';
 import '../styles/globals.css';
 
 const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
   return (
     <ChakraProvider>
-      <header>
-        <Navigation />
-      </header>
+      <Flex direction="column">
+        <Header />
 
-      <Container as="main" maxWidth="container.xl" marginTop="100px">
-        <Component {...pageProps} />
-      </Container>
+        <Container
+          as="main"
+          maxWidth="container.xl"
+          marginTop="100px"
+          flexGrow="1"
+        >
+          <Component {...pageProps} />
+        </Container>
+
+        <Footer />
+      </Flex>
     </ChakraProvider>
   );
 };

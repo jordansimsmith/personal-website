@@ -19,13 +19,11 @@ const ResumePage = (): JSX.Element => {
       </Button>
 
       <Box
-        border="solid"
-        borderColor="green.600"
-        borderRadius="2xl"
+        rounded="2xl"
         overflow="hidden"
         maxWidth={1004} // 1000 + border
-        borderWidth="2px"
         transform="translate(0)"
+        boxShadow="dark-lg"
       >
         <Document file="https://s3-ap-southeast-2.amazonaws.com/jordan.sim-smith.co.nz/cv.pdf">
           <Page
