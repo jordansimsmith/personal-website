@@ -1,20 +1,23 @@
-import NextHead from 'next/head';
 import {
   Box,
-  Center,
-  Flex,
   Heading,
   Image,
   Link,
   SimpleGrid,
   Text,
-  useMediaQuery,
+  useBreakpointValue,
   VStack,
 } from '@chakra-ui/react';
+import NextHead from 'next/head';
 import NextLink from 'next/link';
 
 const IndexPage = (): JSX.Element => {
-  const [isWideScreen] = useMediaQuery('(min-width: 1000px)');
+  const isWideScreen = useBreakpointValue({
+    base: false,
+    sm: false,
+    md: false,
+    lg: true,
+  });
 
   return (
     <>

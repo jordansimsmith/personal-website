@@ -9,6 +9,8 @@ import {
   MenuButton,
   MenuItem,
   MenuList,
+  useBreakpoint,
+  useBreakpointValue,
   useMediaQuery,
 } from '@chakra-ui/react';
 import NextLink from 'next/link';
@@ -34,7 +36,7 @@ const links = [
 ];
 
 export const Header = (): JSX.Element => {
-  const [isWideScreen] = useMediaQuery('(min-width: 720px)');
+  const isWideScreen = useBreakpointValue({ base: false, sm: false, md: true });
 
   return (
     <Box as="header">

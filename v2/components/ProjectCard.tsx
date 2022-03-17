@@ -1,19 +1,16 @@
 import { ExternalLinkIcon } from '@chakra-ui/icons';
 import {
   Box,
-  Stack,
-  Heading,
-  HStack,
-  Tag,
   Button,
   ButtonGroup,
   Divider,
+  Heading,
   Image,
-  Text,
-  SimpleGrid,
+  Stack,
+  Tag,
   Wrap,
 } from '@chakra-ui/react';
-import React, { Children } from 'react';
+import React from 'react';
 
 type ProjectCardProps = {
   title: string;
