@@ -9,9 +9,7 @@ import {
   MenuButton,
   MenuItem,
   MenuList,
-  useBreakpoint,
   useBreakpointValue,
-  useMediaQuery,
 } from '@chakra-ui/react';
 import NextLink from 'next/link';
 import React from 'react';

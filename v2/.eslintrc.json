@@ -1,6 +1,7 @@
 {
   "extends": ["next/core-web-vitals", "jordansimsmith"],
   "rules": {
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "react/no-unescaped-entities": "off"
   }
 }

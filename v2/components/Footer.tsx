@@ -1,5 +1,5 @@
 import { ExternalLinkIcon } from '@chakra-ui/icons';
-import { Box, VStack, Text, Link } from '@chakra-ui/react';
+import { Link, Text, VStack } from '@chakra-ui/react';
 import React from 'react';
 import { useLastUpdated } from '../hooks/useLastUpdated';
 
