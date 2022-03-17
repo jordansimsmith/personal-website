@@ -1,17 +1,15 @@
 FROM node:current-alpine as build
 
 WORKDIR /app
-
-COPY package.json yarn.lock ./
-RUN yarn install
+COPY package.json package-lock.json ./
+RUN npm ci
 COPY . .
-RUN yarn build
+RUN npm run export
 
-FROM nginx:alpine as run
+FROM nginx:alpine as serve
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
-COPY --from=build /app/public /usr/share/nginx/html
+COPY --from=build /app/out /usr/share/nginx/html
 EXPOSE 80
 
 CMD ["nginx", "-g", "daemon off;"]
-
