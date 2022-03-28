@@ -49,7 +49,7 @@ const IndexPage = (): JSX.Element => {
             <Link href="https://www.nintex.com/" isExternal color="green.600">
               Nintex
             </Link>{' '}
-            and a graudate from the{' '}
+            and a graduate from the{' '}
             <Link
               href="https://www.auckland.ac.nz/"
               isExternal
@@ -62,10 +62,10 @@ const IndexPage = (): JSX.Element => {
           <br />
 
           <Text>
-            My passion for sofware engineering is fed from my drive for learning
+            My passion for software engineering is fed from my drive for learning
             and self improvement. The opportunity to explore potential
             enhancements motivates me to seek out areas of improvement, instead
-            of letting the technolgy I am using become stale.
+            of letting the technology I am using become stale.
           </Text>
           <br />
 
