@@ -62,8 +62,8 @@ const IndexPage = (): JSX.Element => {
           <br />
 
           <Text>
-            My passion for software engineering is fed from my drive for learning
-            and self improvement. The opportunity to explore potential
+            My passion for software engineering is fed from my drive for
+            learning and self improvement. The opportunity to explore potential
             enhancements motivates me to seek out areas of improvement, instead
             of letting the technology I am using become stale.
           </Text>
