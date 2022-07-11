@@ -30,8 +30,15 @@ export const ProjectCard = ({
   technologies,
 }: ProjectCardProps): JSX.Element => {
   return (
-    <Box rounded="md" overflow="hidden" boxShadow="dark-lg">
-      {imageUrl && <Image alt={title} src={imageUrl}></Image>}
+    <Box rounded="md" overflow="hidden" boxShadow="dark-lg" width="full">
+      {imageUrl && (
+        <Image
+          alt={title}
+          src={imageUrl}
+          marginLeft="auto"
+          marginRight="auto"
+        ></Image>
+      )}
 
       <Stack padding="20px">
         <Heading size="lg" as="h3">

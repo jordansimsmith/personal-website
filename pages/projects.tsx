@@ -13,6 +13,39 @@ const ProjectsPage = (): JSX.Element => {
         <Heading size="3xl">My projects</Heading>
         <VStack spacing="60px">
           <ProjectCard
+            title="Price Tracker"
+            imageUrl="/price-tracker.png"
+            githubRepositoryUrl="https://github.com/jordansimsmith/price-tracker"
+            technologies={[
+              'C#',
+              '.NET Core',
+              'EF Core',
+              'Hangfire',
+              'PostgreSQL',
+              'SendGrid',
+              'Docker',
+              'Kubernetes',
+            ]}
+          >
+            <Text>
+              I built a service that scrapes product prices from certain online
+              stores, and dispatches emails when the prices change.
+            </Text>
+
+            <Text>
+              I was frustrated by Chemist Warehouse's ephemeral sales on whey
+              powder. Price tracker gives me the peace of mind that I am not
+              missing a sale, and consequentially will never have to check the
+              online prices manually again.
+            </Text>
+
+            <Text>
+              Price tracker can be extended easily to track other online stores
+              and products.
+            </Text>
+          </ProjectCard>
+
+          <ProjectCard
             title="Football Subscriber"
             imageUrl="/football-subscriber.png"
             liveSiteUrl="https://football-subscriber.jordansimsmith.com"
