@@ -45,9 +45,9 @@ const IndexPage = (): JSX.Element => {
           <Heading size="3xl">Hi there! 👋</Heading>
 
           <Text marginTop="20px">
-            I'm an Engineer at{' '}
-            <Link href="https://www.nintex.com/" isExternal color="green.600">
-              Nintex
+            I'm a Backend Engineer @{' '}
+            <Link href="https://canva.com/" isExternal color="green.600">
+              Canva
             </Link>{' '}
             and a graduate from the{' '}
             <Link
